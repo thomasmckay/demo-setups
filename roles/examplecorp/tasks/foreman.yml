@@ -1,0 +1,9 @@
+---
+- name: "{{ name }}"
+  local_action:
+    module: foreman
+    username: "{{ username }}"
+    password: "{{ password }}"
+    server_url: "{{ server }}"
+    entity: "{{ entity }}"
+    params: "{{ params }}"

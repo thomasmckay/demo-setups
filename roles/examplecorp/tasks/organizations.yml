@@ -1,0 +1,9 @@
+---
+- include: foreman.yml
+  vars:
+    name: "Create 'Example Corp' organization"
+    entity: "organization"
+    state: present
+    params:
+      name: "Example Corp"
+      label: "examplecorp"

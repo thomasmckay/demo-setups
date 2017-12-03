@@ -1,0 +1,4 @@
+---
+username: "admin"
+password: "changeme"
+server: "https://satellite.example.com"
