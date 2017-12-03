@@ -7,3 +7,4 @@
     server_url: "{{ server }}"
     entity: "{{ entity }}"
     params: "{{ params }}"
+    state: "{{ state }}"
