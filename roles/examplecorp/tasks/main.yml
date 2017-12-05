@@ -1,2 +1,3 @@
 ---
-- include: organizations.yml
+#- include: organizations.yml
+- include: products.yml
