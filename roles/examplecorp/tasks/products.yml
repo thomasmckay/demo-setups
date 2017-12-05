@@ -1,0 +1,10 @@
+---
+- include: foreman.yml
+  vars:
+    name: "Create 'Example Corp' organization"
+    entity: "product"
+    params:
+      name: "Red Hat Container Catalog"
+      label: "rhcc"
+      organization: "{{ organization }}"
+
